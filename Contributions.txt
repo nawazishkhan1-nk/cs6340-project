@@ -1,0 +1,15 @@
+Both team members put in equal efforts for this submission
+
+Nawazish: 
+model.py - Feed Forward network
+run_model.py - Train/Evaluate model
+
+
+Nikolay:
+qa.py - Load file and run QA system 
+utils.py - All the utilites for the deep network
+train.py - Train and evaluate model
+
+Both:
+evaluate.py - Utils to evaluate Model
+Constants.py - Tuning Hyperparameters and some constant functions
