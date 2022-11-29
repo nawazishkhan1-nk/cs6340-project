@@ -21,4 +21,6 @@
 
 ### Evaluating the model 
 - Run *qa.py* system with *input_file.txt* as argument which contains the input in specified format
-- Please wait few minutes for evaluation
+- Please wait few minutes (at least 3 to 4 minutes) for evaluation to complete
+
+#### Tested on CADE Machine: lab1-7:1
