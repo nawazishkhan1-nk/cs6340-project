@@ -58,7 +58,7 @@ def check_is_max_context(doc_spans, cur_span_index, position):
     return cur_span_index == best_span_index
 
 def get_best_indexes(logits, n_best_size):
-    """Get the n-best logits from a list."""
+    """Get the best logits from a list """
     index_and_score = sorted(enumerate(logits), key=lambda x: x[1], reverse=True)
 
     best_indexes = []

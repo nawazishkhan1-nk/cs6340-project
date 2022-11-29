@@ -3,10 +3,10 @@ import torch
 import math
 from torch.nn import CrossEntropyLoss
 from torch import nn
-import torch.nn.functional as F
+import torch.nn.functional
 from Constants import *
-import logging
-logging.disable(logging.INFO)
+# import logging
+# logging.disable(logging.INFO)
 import transformers.utils
 transformers.utils.logging.set_verbosity_error()
 

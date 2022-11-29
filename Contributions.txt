@@ -2,7 +2,7 @@ Both team members put in equal efforts for this submission
 
 Nawazish: 
 model.py - Feed Forward network
-run_model.py - Train/Evaluate model
+RunModel.py - Train/Evaluate model
 
 
 Nikolay:

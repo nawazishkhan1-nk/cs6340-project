@@ -15,6 +15,7 @@ max_query_length = 64 # For Questions
 train_batch_size = 4 # 12 
 predict_batch_size = 4 # 8
 learning_rate = 3e-5
+# learning_rate = 1e-3
 num_train_epochs = 10
 warmup_proportion  = 0.1
 n_best_size = 100

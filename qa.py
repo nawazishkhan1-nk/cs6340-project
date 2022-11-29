@@ -1,5 +1,6 @@
 from Constants import *
-from run_model import *
+from RunModel import *
+import RunModel
 from utils import *
 import sys
 import re
@@ -25,6 +26,7 @@ if __name__ == '__main__':
     # 4. Predict from model
     with open(os.devnull, "w", encoding='utf-8') as target:
         sys.stdout = target
+        RunModel.VERBOSITY = False
         run_model(train_file='./data/train.json', 
                     predict_file=f'{path}/input_question_answers.json', 
                     do_train=False, do_predict=True)
