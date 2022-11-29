@@ -1,7 +1,7 @@
 # CS-6340 Project
 # Team: The Magicians [Nawazish Khan, Nikolay Lukyanchikov]
 
-# Midpoint Submission
+# Final Submission
 
 ## Methodology
 - Train a feed forward Conv network
@@ -17,7 +17,7 @@
 ####  Build Virtual environment using *venv.csh*
 ### Training the model
 - Run *train.py* 
-(Note that, the pretrained model from our end is daved in *./output_dir*, Please delete that dir, to train a new model and save it's weights)
+(Note that, the pretrained model from our end is saved in *./output_dir*, Please delete that dir, to train a new model and save it's weights)
 
 ### Evaluating the model 
 - Run *qa.py* system with *input_file.txt* as argument which contains the input in specified format
